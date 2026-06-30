@@ -1,0 +1,95 @@
+body {
+    /* background-color: #b30000; */
+    background: #FA0000 url(/img/p5_BG.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: width="30%";
+    background-position: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+a {
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+#blurb {
+    width: 50rem;
+    margin-top: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.45); 
+    padding: 30px; 
+    border-radius: 0px; 
+}
+
+#blurb p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    border-radius: 0px;
+    transform: rotate(-1deg);
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.image-box {
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 1;
+}
+
+/* Custom Interactive Arrow Overlays */
+.arrow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    font-size: 28px;
+    padding: 12px 8px;
+    cursor: pointer;
+    z-index: 10;            /* Forces arrows onto the top layer */
+    transition: background-color 0.2s;
+}
+
+.arrow-btn:hover {
+    background-color: #1a1a1a;
+}
+
+.prev { left: 0; border-radius: 0 4px 4px 0; }
+.next { right: 0; border-radius: 4px 0 0 4px; }
+
+div {
+    background-color: rgba(0, 0, 0, 100); 
+    padding: 30px; 
+    border-radius: 0px; 
+    transform: rotate(-1deg);
+    box-shadow: 5px 5px 0px #000000;
+}
+
+#text {
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 30px;
+    border-radius: 0px;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Impact&family=Poppins:wght@700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111; 
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  transition: background-color 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+#buttons {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  width: 100%;
+  max-width: 900px;
+}
+
+
+
+
+#buttons button {
+  border: none;
+  padding: 20px 40px;
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+  
+  transform: skewX(-10deg); 
+  
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.1s ease;
+  box-shadow: 0 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+#buttons button span {
+  display: inline-block;
+  transform: skewX(10deg);
+}
+
+#buttons button:hover {
+  transform: skewX(-10deg) scale(1.15) translateY(-5px);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Persona 3 - Bright Blue */
+#button3 {
+  background-color: #32DBF2;
+  color: #ffffff;
+  text-shadow: 2px 2px 0px #000;
+}
+#button3:hover {
+  outline: 4px solid #ffffff;
+}
+
+/* Persona 4 - Neon/Retro Yellow */
+#button4 {
+  background-color: #FEE135;
+  color: #000000;
+}
+#button4:hover {
+  outline: 4px solid #000000;
+}
+
+/* Persona 5 - Phantom Thief Red */
+#button5 {
+  background-color: #FA0000;
+  color: #ffffff;
+  font-family: 'Impact', sans-serif;
+  font-size: 24px;
+}
+#button5:hover {
+  outline: 4px solid #ffffff;
+}
