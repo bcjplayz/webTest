@@ -1,6 +1,6 @@
 body {
     /* background-color: #b30000; */
-    background: #FA0000 url(/img/p5_BG.jpg);
+    background: #FA0000 url(../img/p5_BG.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment:fixed;

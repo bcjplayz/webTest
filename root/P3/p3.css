@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding:0;
-    background:#32DBF2 url(/img/p3_BG.jpg);
+    background:#32DBF2 url(../img/p3_BG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;

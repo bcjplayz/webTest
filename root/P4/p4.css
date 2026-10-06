@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding:0;
-    background:#ffe52c url(/img/p4_BG.jpg);
+    background:#ffe52c url(../img/p4_BG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
